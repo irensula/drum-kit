@@ -17,7 +17,7 @@ document.addEventListener('keydown', (event) => {
 function makeSound(key) {
 	switch(key) {
 		case "w":
-			let tom1 = new Audio('tom-1.mp3');
+			let tom1 = new Audio('sounds/tom-1.mp3');
 			tom1.play();
 			break;
 		case "a":
